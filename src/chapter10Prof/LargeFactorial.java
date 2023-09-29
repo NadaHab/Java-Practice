@@ -1,4 +1,4 @@
-package chapter10Prof;
+package chapter10;
 
 import java.math.BigInteger;
 
