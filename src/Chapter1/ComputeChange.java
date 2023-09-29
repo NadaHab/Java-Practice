@@ -20,22 +20,22 @@ public class ComputeChange {
         // Find the number of one dollars
         int numberOfOneDollars = amaountInCents / 100;
 
-        // Find the reminder from previous step
+        // Find the remainder from previous step
         amaountInCents = amaountInCents % 100;
         // Find the number of quarters in the remaining amount
         int numberOfQuarters = amaountInCents / 25;
 
-        // Find the reminder from previous step
+        // Find the remainder from previous step
         amaountInCents = amaountInCents % 25;
         // Find the number of dimes in the remaining amount
         int numberOfDimes = amaountInCents / 10;
 
-        // Find the reminder from previous step
+        // Find the remainder from previous step
         amaountInCents = amaountInCents % 10;
         // Find the number of nickels in the remaining amount
         int numberOfNickels = amaountInCents / 5;
 
-        // Find the reminder from previous step
+        // Find the remainder from previous step
         amaountInCents = amaountInCents % 5;
         // Find the number of pennies in the remaining amount
         int numberOfPennies = amaountInCents;
